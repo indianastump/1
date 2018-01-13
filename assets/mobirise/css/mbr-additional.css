@@ -1,5 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+
+
 
 
 
@@ -24,14 +27,14 @@
   display: none !important;
 }
 #dropdown-menu-2btn-0 .navbar-brand a {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
 }
 #dropdown-menu-2btn-0 .nav .link,
 #dropdown-menu-2btn-0 .dropdown-item {
-  font-size: 1em;
+  font-size: 1.2em;
   color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 #dropdown-menu-2btn-0 .navbar,
 #dropdown-menu-2btn-0 .dropdown-menu {
@@ -81,10 +84,12 @@
   text-align: center;
   color: #000000;
   font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 #content5-1f .mbr-header .mbr-header__text {
   text-align: center;
   color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 #content5-1f .mbr-header .mbr-header__subtext {
   text-align: center;
@@ -92,6 +97,10 @@
 }
 #content5-1f .mbr-article {
   color: #fff;
+}
+#content5-1f .mbr-article P {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
 }
 #features1-4 .mbr-section__col .mbr-header__text {
   text-align: center;
@@ -171,14 +180,14 @@
   display: none !important;
 }
 #dropdown-menu-2btn-x .navbar-brand a {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
 }
 #dropdown-menu-2btn-x .nav .link,
 #dropdown-menu-2btn-x .dropdown-item {
-  font-size: 1em;
+  font-size: 1.2em;
   color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 #dropdown-menu-2btn-x .navbar,
 #dropdown-menu-2btn-x .dropdown-menu {
@@ -289,14 +298,14 @@
   display: none !important;
 }
 #dropdown-menu-2btn-15 .navbar-brand a {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
 }
 #dropdown-menu-2btn-15 .nav .link,
 #dropdown-menu-2btn-15 .dropdown-item {
-  font-size: 1em;
+  font-size: 1.2em;
   color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 #dropdown-menu-2btn-15 .navbar,
 #dropdown-menu-2btn-15 .dropdown-menu {

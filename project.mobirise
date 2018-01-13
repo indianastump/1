@@ -37,15 +37,15 @@
               "display": "none !important"
             },
             ".navbar-brand a": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "18px"
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "20px"
             },
             ".nav .link, .dropdown-item": {
-              "font-size": "1em",
+              "font-size": "1.2em",
               "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-family": "'Open Sans', sans-serif"
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-family": "'Roboto Condensed', sans-serif"
             },
             ".navbar, .dropdown-menu": {
               "background": "#333333"
@@ -71,11 +71,11 @@
             "sticky": true,
             "transparent": false,
             "bgColor": "#333333",
-            "fontSize": "1",
+            "fontSize": "1.2",
             "fontName": {
-              "name": "Open Sans",
-              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "css": "'Open Sans', sans-serif"
+              "name": "Roboto Condensed",
+              "url": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "css": "'Roboto Condensed', sans-serif"
             },
             "fontColor": "#ffffff"
           },
@@ -89,7 +89,7 @@
               "link": "https://mobirise.com"
             }
           },
-          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">INDIANASTUMP.COM &nbsp;</a>",
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">INDIANA STUMP REMOVAL&nbsp;</a>",
           "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\" aria-expanded=\"false\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-q\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-3\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"mailto:indianastump@gmail.com\">EMAIL</a></li>"
         },
         {
@@ -146,7 +146,7 @@
             "overlayOpacity": "0.5"
           },
           "title": "PRO STUMP REMOVAL IN CENTRAL INDIANA",
-          "text": "<br>John Lane &nbsp;317-331-8097<br><br>",
+          "text": "<br>John Lane &nbsp;317.331.8097<br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">FREE ESTIMATE</a> "
         },
         {
@@ -163,7 +163,9 @@
             ".mbr-article P": {
               "text-align": "center",
               "color": "#000000",
-              "font-size": "20px"
+              "font-size": "20px",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
             }
           },
           "_params": {
@@ -203,7 +205,9 @@
           "_styles": {
             ".mbr-header .mbr-header__text": {
               "text-align": "center",
-              "color": "#fff"
+              "color": "#fff",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
             },
             ".mbr-header .mbr-header__subtext": {
               "text-align": "center",
@@ -211,6 +215,11 @@
             },
             ".mbr-article": {
               "color": "#fff"
+            },
+            ".mbr-article P": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "18px"
             }
           },
           "_params": {
@@ -734,7 +743,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2017 &nbsp;Indiana Stump Removal, 1907 Patton Dr.,&nbsp;Indianapolis, Indiana 46224",
+          "text": "Copyright (c) 2017 &nbsp;Indiana Stump Removal<br><br>1907 Patton Dr.,&nbsp;Indianapolis, Indiana 46224",
           "_tags": [
             "Theme"
           ],
@@ -770,15 +779,15 @@
               "display": "none !important"
             },
             ".navbar-brand a": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "18px"
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "20px"
             },
             ".nav .link, .dropdown-item": {
-              "font-size": "1em",
+              "font-size": "1.2em",
               "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-family": "'Open Sans', sans-serif"
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-family": "'Roboto Condensed', sans-serif"
             },
             ".navbar, .dropdown-menu": {
               "background": "#333333"
@@ -803,11 +812,11 @@
             "sticky": true,
             "transparent": false,
             "bgColor": "#333333",
-            "fontSize": "1",
+            "fontSize": "1.2",
             "fontName": {
-              "name": "Open Sans",
-              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "css": "'Open Sans', sans-serif"
+              "name": "Roboto Condensed",
+              "url": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "css": "'Roboto Condensed', sans-serif"
             },
             "fontColor": "#ffffff"
           },
@@ -821,7 +830,7 @@
               "link": "https://mobirise.com"
             }
           },
-          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">INDIANASTUMP.COM &nbsp;</a>",
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">INDIANA STUMP REMOVAL&nbsp;</a>",
           "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\" aria-expanded=\"false\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-q\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-3\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"mailto:indianastump@gmail.com\">EMAIL</a></li>",
           "_anchor": "dropdown-menu-2btn-x"
         },
@@ -1371,7 +1380,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2017 &nbsp;Indiana Stump Removal, 1907 Patton Dr.,&nbsp;Indianapolis, Indiana 46224",
+          "text": "Copyright (c) 2017 &nbsp;Indiana Stump Removal<br><br>1907 Patton Dr.,&nbsp;Indianapolis, Indiana 46224",
           "_tags": [
             "Theme"
           ],
@@ -1407,15 +1416,15 @@
               "display": "none !important"
             },
             ".navbar-brand a": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "18px"
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "20px"
             },
             ".nav .link, .dropdown-item": {
-              "font-size": "1em",
+              "font-size": "1.2em",
               "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-family": "'Open Sans', sans-serif"
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-family": "'Roboto Condensed', sans-serif"
             },
             ".navbar, .dropdown-menu": {
               "background": "#333333"
@@ -1440,11 +1449,11 @@
             "sticky": true,
             "transparent": false,
             "bgColor": "#333333",
-            "fontSize": "1",
+            "fontSize": "1.2",
             "fontName": {
-              "name": "Open Sans",
-              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "css": "'Open Sans', sans-serif"
+              "name": "Roboto Condensed",
+              "url": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "css": "'Roboto Condensed', sans-serif"
             },
             "fontColor": "#ffffff"
           },
@@ -1458,7 +1467,7 @@
               "link": "https://mobirise.com"
             }
           },
-          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">INDIANASTUMP.COM &nbsp;</a>",
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">INDIANA STUMP REMOVAL&nbsp;</a>",
           "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\" aria-expanded=\"false\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-q\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-3\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"mailto:indianastump@gmail.com\">EMAIL</a></li>",
           "_anchor": "dropdown-menu-2btn-15"
         },
@@ -1951,7 +1960,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2017 &nbsp;Indiana Stump Removal, 1907 Patton Dr.,&nbsp;Indianapolis, Indiana 46224",
+          "text": "Copyright (c) 2017 &nbsp;Indiana Stump Removal<br><br>1907 Patton Dr.,&nbsp;Indianapolis, Indiana 46224",
           "_tags": [
             "Theme"
           ],
