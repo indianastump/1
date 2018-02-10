@@ -32,7 +32,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.2",
-    "uniqCompNum": 84,
+    "uniqCompNum": 85,
     "versionPublish": "4.6.2",
     "screenshot": "screenshot.png"
   },
@@ -52,95 +52,45 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(90deg, @bg-value, @bgColor2)"
+              }
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-section-btn": {
-              "margin-bottom": "20px",
-              "width": "100%"
+            "& when (@flexDirection)": {
+              ".mbr-row": {
+                "flex-direction": "row-reverse"
+              }
             },
-            "amp-img": {
-              "width": "100%",
-              "height": "100%",
-              "text-align": "center",
-              "margin": "0 auto",
-              "object-fit": "cover",
-              "object-position": "center center"
-            },
-            "img": {
-              "height": "100%",
-              "object-fit": "cover",
-              "object-position": "center center"
-            },
-            "h1": {
-              "text-align": "left",
-              "color": "#232323",
-              "width": "100%"
-            },
-            ".text-col": {
+            ".btn-container": {
               "display": "flex",
-              "align-items": "flex-end",
-              "flex-direction": "column",
-              "padding-left": "4rem",
-              "padding-bottom": "2rem"
+              "align-items": "center",
+              "justify-content": "center"
             },
-            ".img-col": {
-              "padding": "0"
-            },
-            "div.mbr-text": {
-              "color": "#232323",
-              "max-width": "40%",
-              "padding-top": "6rem",
-              "@media (max-width: 1200px)": {
-                "max-width": "50%"
-              },
-              "p": {
-                "border-right": "2px #efefef solid",
-                "padding-right": "15px"
+            "@media (min-width: 768px)": {
+              ".mbr-section-subtitle": {
+                "margin-bottom": "0"
               }
             },
-            ".mbr-text": {
-              "color": "#232323",
-              "text-align": "right"
+            ".mbr-section-title": {
+              "text-align": "left",
+              "color": "#767676"
             },
-            "@media (max-width: 992px)": {
-              "h1": {
-                "text-align": "center !important"
-              },
-              ".mbr-section-btn": {
-                "text-align": "center !important"
-              },
-              "div.mbr-text": {
-                "align-self": "center",
-                "p": {
-                  "border-right": "none",
-                  "text-align": "center !important",
-                  "padding-right": "0"
-                }
-              },
-              ".text-col": {
-                "padding-left": "0"
-              }
-            },
-            "@media (max-width: 768px)": {
-              "div.mbr-text": {
-                "max-width": "80%"
-              }
-            },
-            "h1, .mbr-section-btn": {
-              "text-align": "right"
+            ".mbr-section-subtitle": {
+              "text-align": "left"
             }
           },
-          "_name": "header6",
-          "_customHTML": "<section class=\"header5\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 mbr-col-xl-5 text-col\">\n                <div class=\"mbr-text align-right\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod at id fugiat natus a voluptas eveniet officia iure nihil nostrum ad, modi ipsam, dicta ullam accusamus, voluptate aspernatur. Accusamus, aliquad?\n                    </p>\n                </div>\n                <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-1\" data-app-selector=\"h1, .mbr-section-btn\">INDIANA STUMP REMOVAL<br></h1>\n\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-warning\" href=\"index.html#features1-20\">LEARN MORE</a> <a class=\"btn btn-md btn-danger\" href=\"index.html#form4-26\">FREE ESTIMATE</a></div>\n            </div>\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 mbr-col-xl-7 img-col\">\n                                <amp-img src=\"@PROJECT_PATH@/assets/images/stump-grinding-in-indianapolis-1-800x800.jpg\" alt=\"Mobirise\" width=\"804.7058823529412\" height=\"513\" layout=\"responsive\">\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/stump-grinding-in-indianapolis-1-800x800.jpg\" alt=\"Mobirise\" title>\n                </amp-img>\n            </div>\n        </div>\n</section>",
-          "_cid": "qJgkbVjNbI",
-          "_anchor": "header6-2a",
+          "_name": "info2",
+          "_customHTML": "<section class=\"info2\" group=\"Info\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Button\" name=\"showButton\" checked>\n        <input type=\"checkbox\" title=\"Text on Left/Right\" name=\"flexDirection\" condition=\"(showTitle || showSubtitle) && showButton\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background7.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"bgColor2\" value=\"#ffed73\" condition=\"bg.type=='color' && gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-8\" mbr-if=\"showTitle || showSubtitle\">\n                <h2 class=\"mbr-section-title align-right mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                    INDIANA <br>STUMP REMOVAL</h2>\n                <h3 class=\"mbr-section-subtitle align-right mbr-fonts-style mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"></h3>\n            </div>\n            <div class=\"btn-container mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-4\" mbr-if=\"showButton\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-info\" href=\"index.html#features1-20\">LEARN MORE</a> <a class=\"btn btn-danger\" href=\"index.html#form4-26\">FREE ESTIMATE</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qJgrTNXdLb",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "info2-2c"
         },
         {
           "_styles": {
